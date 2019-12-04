@@ -1,0 +1,41 @@
+﻿@model SlugClub.UI.Models.UrunVm
+    @{
+        ViewBag.Title = "UrunEkle";
+    }
+    <div class="container">
+        <div class="col">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @using (Html.BeginForm("UrunEkle", "Home", FormMethod.Post))
+            {
+                <form>
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.UrunAdi, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.EditorFor(model => model.UrunAdi, new { htmlAttributes = new { @class = "form-control", @placeholder = "Ürün Adı" } })
+                        @Html.ValidationMessageFor(model => model.UrunAdi, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Fiyat, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.EditorFor(model => model.Fiyat, "", new { htmlAttributes = new { @class = "form-control", @placeholder = "Fiyatı" } })
+                        @Html.ValidationMessageFor(model => model.Fiyat, "", new { htmlAttributes = new { @class = "text-danger" } })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Aciklama, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.EditorFor(model => model.Aciklama, "", new { htmlAttributes = new { @class = "form-control", @placeholder = "Açıklama" } })
+                        @Html.ValidationMessageFor(model => model.Aciklama, "", new { htmlAttributes = new { @class = "text-danger" } })
+                    </div>
+                    <div class="form-group">
+                        <span>Mobilya</span>@Html.RadioButtonFor(m => m.KategoriAdi, "Mobilya")
+                        <span>Elektronik</span>@Html.RadioButtonFor(m => m.KategoriAdi, "Elektronik")
+                        <span>Dekorasyon</span>@Html.RadioButtonFor(m => m.KategoriAdi, "Dekorasyon")
+                        <span>Giyim</span>@Html.RadioButtonFor(m => m.KategoriAdi, "Giyim")
+                        <span>Aksesuar</span>@Html.RadioButtonFor(m => m.KategoriAdi, "Aksesuar")
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Ürün Ekle" class="btn btn-lg btn-success btn-block" />
+                    </div>
+                </form>
+            }
+
+        </div>
+    </div>

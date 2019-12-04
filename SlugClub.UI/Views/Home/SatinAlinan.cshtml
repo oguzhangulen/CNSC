@@ -1,0 +1,39 @@
+﻿@model IEnumerable<SlugClub.Models.Models.SatinAlma>
+@{
+    ViewBag.Title = "SatinAlinan";
+}
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="/Home/Index">Anasayfa</a>
+    </li>
+</ol>
+@if (Model == null)
+{
+    <div class="alert alert-danger" role="alert">
+        Satın alınan ürün bulunmamaktadır..
+    </div>
+}
+else
+{
+    <div class="col">
+        <table class="table table-bordered" id="dataTable">
+            <thead>
+                <tr>
+                    <th scope="col">Ürün Adı</th>
+                    <th scope="col">Fiyat</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ToList())
+                {
+                <tr>
+                    <td>@item.UrunAdi</td>
+                    <td>@item.Tarih</td>
+
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

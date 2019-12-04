@@ -1,0 +1,16 @@
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\bin\Debug\SlugClub.Data.dll.config
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\bin\Debug\SlugClub.Data.dll
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\bin\Debug\SlugClub.Data.pdb
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\bin\Debug\EntityFramework.dll
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\bin\Debug\SlugClub.Models.dll
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\bin\Debug\SlugClub.Models.pdb
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\bin\Debug\EntityFramework.xml
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\obj\Debug\SlugClub.DAL.csprojAssemblyReference.cache
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\obj\Debug\SlugClub.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\obj\Debug\SlugClub.DAL.csproj.CopyComplete
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\obj\Debug\SlugClub.Data.dll
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\obj\Debug\SlugClub.Data.pdb
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\obj\Debug\SlugClub.Data.Migrations.OgMg.resources
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Data\obj\Debug\SlugClub.DAL.csproj.GenerateResource.cache

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/jquery.smartmenus.bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/jquery.simpleLens.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/sequence-theme.modern-slide-in.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+
+    @*@Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")*@
+</head>
+<body>
+    @Html.Partial("_Header")
+    @RenderBody()
+    @Html.Partial("_Footer")
+
+    <script src="~/vendor/datatables/dataTables.bootstrap4.js"></script>
+    <script src="~/Scripts/js/demo/datatables-demo.js"></script>
+    <script src="~/vendor/datatables/jquery.dataTables.js"></script>
+    <script src="~/Scripts/js/demo/chart-area-demo.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/respond.min.js"></script>
+    <script src="~/Scripts/sequence.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/custom.js"></script>
+    <script src="~/vendor/chart.js/Chart.min.js"></script>
+    <script src="~/Scripts/js/index.min.js"></script>
+</body>
+</html>

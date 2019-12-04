@@ -1,0 +1,40 @@
+﻿@model IEnumerable<SlugClub.Models.Models.Urun>
+@{
+    ViewBag.Title = "Urunlerim";
+}
+@Html.ActionLink("Ürün Ekle", "UrunEkle", new { @class="btn btn-success"})
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="/Home/Index">Anasayfa</a>
+    </li>
+</ol>
+@if (Model==null)
+{
+    <div class="alert alert-danger" role="alert">
+        Satışta olan ürün bulunmamaktadır..
+    </div>
+}
+else
+{
+    <div class="col">
+        <table class="table table-bordered" id="dataTable">
+            <thead>
+                <tr>
+                    <th scope="col">Ürün Adı</th>
+                    <th scope="col">Fiyat</th>
+                    <th scope="col">Urun Detayı</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ToList())
+                {
+                    <tr>
+                        <td>@item.UrunAdi</td>
+                        <td>@item.Fiyat</td>
+                        <td>@item.Aciklama</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

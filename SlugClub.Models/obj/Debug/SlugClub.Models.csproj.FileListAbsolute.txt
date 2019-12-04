@@ -1,0 +1,6 @@
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Models\bin\Debug\SlugClub.Models.dll
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Models\bin\Debug\SlugClub.Models.pdb
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Models\obj\Debug\SlugClub.Models.csproj.CoreCompileInputs.cache
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Models\obj\Debug\SlugClub.Models.dll
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Models\obj\Debug\SlugClub.Models.pdb
+C:\Users\ogzha\source\repos\slugclub\SlugClub.Models\obj\Debug\SlugClub.Models.csprojAssemblyReference.cache
